@@ -16,8 +16,7 @@ const PostCard = ({ post }) => {
           <img src={post.imagenURL} className='card-img-top' alt="Post" />
         </div>
         <div className='card-body'>
-          <h1 className='card-title'>{post.title}</h1>
-          <p className='card-text'>{post.content}</p>
+          <h1 className='card-title'><trong>{post.title}</trong></h1>
           <div className='d-flex justify-content-center'>
             <button onClick={handleDownload} className='btn btn-warning'>
               Descargar

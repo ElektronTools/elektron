@@ -1,11 +1,10 @@
-// components/Proteus.js
 import React from 'react';
 import Image from 'next/image';
 
 const Proteus = () => {
   return (
     <div className='container py-5 text-center'>
-      <h2 className='font-weight-bold mb-4'>Descarga Proteus 8.17</h2>
+      <h2 className='font-weight-bold mb-4'><strong>Descarga Proteus 8.17</strong></h2>
       <p className='mb-4'>
         Proteus es un software de simulación y diseño de circuitos electrónicos que permite a los usuarios crear y probar circuitos antes de implementarlos físicamente.
         Es ampliamente utilizado en la educación y en la industria para prototipar y validar diseños electrónicos.
@@ -51,7 +50,7 @@ const Proteus = () => {
         >
           Descarga Winrar
         </a>
-        <h2 className='font-weight-bold mb-4'>Video Tutorial Para Instalar Proteus</h2>
+        <h2 className='font-weight-bold mb-4'><strong>Video Tutorial Para Instalar Proteus</strong></h2>
         <div className='embed-responsive embed-responsive-16by9'>
           <iframe 
             className='embed-responsive-item'
