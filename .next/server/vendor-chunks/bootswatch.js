@@ -10,9 +10,9 @@ exports.id = "vendor-chunks/bootswatch";
 exports.ids = ["vendor-chunks/bootswatch"];
 exports.modules = {
 
-/***/ "./node_modules/bootswatch/dist/cosmo/bootstrap.min.css":
+/***/ "./node_modules/bootswatch/dist/solar/bootstrap.min.css":
 /*!**************************************************************!*\
-  !*** ./node_modules/bootswatch/dist/cosmo/bootstrap.min.css ***!
+  !*** ./node_modules/bootswatch/dist/solar/bootstrap.min.css ***!
   \**************************************************************/
 /***/ (() => {
 
