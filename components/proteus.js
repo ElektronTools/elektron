@@ -22,7 +22,7 @@ const Proteus = () => {
           href='https://drive.google.com/file/d/13kSvOf495EB67NdCO-hx0_SMUkyk-TBB/view?usp=sharing' 
           target='_blank' 
           rel='noopener noreferrer' 
-          className='btn btn-primary mb-1'
+          className='btn btn-info mb-1'
         >
           Descargar Proteus v8.17
         </a>
@@ -31,7 +31,7 @@ const Proteus = () => {
           href='https://drive.google.com/file/d/12SJHGht5DvOnfQYuaNJfClADd2I5xWUw/view?usp=sharing' 
           target='_blank' 
           rel='noopener noreferrer' 
-          className='btn btn-primary mb-3'
+          className='btn btn-warning mb-3'
         >
           Descargar traductor de Proteus al español
         </a>
@@ -39,7 +39,7 @@ const Proteus = () => {
           href='https://drive.google.com/file/d/1tVo7DAXM4jjBqBw08hM0YQHVsK6dtgSC/view?usp=sharing' 
           target='_blank' 
           rel='noopener noreferrer' 
-          className='btn btn-primary mb-3'
+          className='btn btn-success mb-3'
         >
           Descargar libreria Arduino UNO
         </a>

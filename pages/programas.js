@@ -10,16 +10,16 @@ const PostCard = ({ post }) => {
   };
 
   return (
-    <div className='col-md-4'>
-      <div className='card'>
+    <div className='col-md-6 d-flex justify-content-center'>
+      <div className='card text-center'>
         <div className='overflow'>
           <img src={post.imagenURL} className='card-img-top' alt="Post" />
         </div>
-        <div>
-          <h1>{post.title}</h1>
-          <p>{post.content}</p>
+        <div className='card-body'>
+          <h1 className='card-title'>{post.title}</h1>
+          <p className='card-text'>{post.content}</p>
           <div className='d-flex justify-content-center'>
-            <button onClick={handleDownload} className='btn btn-primary'>
+            <button onClick={handleDownload} className='btn btn-warning'>
               Descargar
             </button>
           </div>
@@ -31,13 +31,15 @@ const PostCard = ({ post }) => {
 
 const Programas = () => (
   <Layout footer={false} title="My Blog" dark>
-    <div className='d-flex justify-content-center'>
-      <div className='row'>
-        {
-          post.map((post, i) => (
-            <PostCard post={post} key={i} />
-          ))
-        }
+    <div className='container'>
+      <div className='d-flex justify-content-center'>
+        <div className='row'>
+          {
+            post.map((post, i) => (
+              <PostCard post={post} key={i} />
+            ))
+          }
+        </div>
       </div>
     </div>
   </Layout>
