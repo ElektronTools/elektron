@@ -17,8 +17,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md-6 text-center align-self-center">
-            <p style={{ marginBottom: '0px' }}>© {new Date().getFullYear()} ElektronTools. Todos los derechos reservados.</p>
-            <p style={{ marginBottom: '5px' }}>Developed by LAAT</p>
+            <p style={{ marginBottom: '1px' }}>© {new Date().getFullYear()} ElektronTools. Todos los derechos reservados.</p>
+            <p style={{ marginBottom: '15px' }}>Developed by LAAT</p>
           </div>
         </div>
       </div>
