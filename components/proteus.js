@@ -12,37 +12,44 @@ const Proteus = () => {
       </p>
       <div className='d-flex flex-column align-items-center'>
         <Image
-          src='/proteus.jpg' // Ruta relativa a la carpeta 'public'
+          src='/proteus.jpg' 
           alt='Proteus 8.17'
           width={350}
           height={250}
-          className='mb-4'
+          className='mb-3'
         />
         <a 
-          href='https://drive.google.com/file/d/1SER5wiQoS8oIrhv675ThY_wSTmMMbbwE/view?usp=sharing' 
+          href='https://drive.google.com/file/d/13kSvOf495EB67NdCO-hx0_SMUkyk-TBB/view?usp=sharing' 
           target='_blank' 
           rel='noopener noreferrer' 
-          className='btn btn-primary mb-4'
+          className='btn btn-primary mb-1'
         >
-          Descargar Proteus 8.17
+          Descargar Proteus v8.17
         </a>
-        <h2 className='font-weight-bold mb-4'>Descargar el traductor en español de Proteus 8.17</h2>
+        <p></p>
         <a 
-          href='https://drive.google.com/file/d/1AjwK8GwHMq6M6bhRIxm01b8U15sxTxdw/view?usp=sharing' 
+          href='https://drive.google.com/file/d/12SJHGht5DvOnfQYuaNJfClADd2I5xWUw/view?usp=sharing' 
           target='_blank' 
           rel='noopener noreferrer' 
-          className='btn btn-primary mb-4'
+          className='btn btn-primary mb-3'
         >
-          Descarga el traductor de Proteus
+          Descargar traductor de Proteus al español
         </a>
-        <h2 className='font-weight-bold mb-4'>Descargar librerias de arduino para proteus</h2>
         <a 
-          href='https://drive.google.com/file/d/1AjwK8GwHMq6M6bhRIxm01b8U15sxTxdw/view?usp=sharing' 
+          href='https://drive.google.com/file/d/1tVo7DAXM4jjBqBw08hM0YQHVsK6dtgSC/view?usp=sharing' 
           target='_blank' 
           rel='noopener noreferrer' 
-          className='btn btn-primary mb-4'
+          className='btn btn-primary mb-3'
         >
-          Descargar librerias
+          Descargar libreria Arduino UNO
+        </a>
+        <a 
+          href='https://drive.google.com/file/d/11UNbW5jiSCCSgYoDkZjb36kXFEHiErCA/view?usp=sharing' 
+          target='_blank' 
+          rel='noopener noreferrer' 
+          className='btn btn-primary mb-3'
+        >
+          Descarga Winrar
         </a>
         <h2 className='font-weight-bold mb-4'>Video Tutorial Para Instalar Proteus</h2>
         <div className='embed-responsive embed-responsive-16by9'>
