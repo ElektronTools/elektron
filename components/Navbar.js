@@ -35,7 +35,10 @@ const Navbar = () => {
                 <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`} id="navbarNavDropdown">
                     <ul className="navbar-nav ms-auto"> {/* ms-auto para alinear a la derecha */}
                         <li className="nav-item">
-                            <Link href="/blog" className="nav-link">Blog</Link>
+                            <Link href="/servicios" className="nav-link">Instalación y Mantenimiento</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link href="/arduino" className="nav-link">Arduino</Link>
                         </li>
                         <li className={`nav-item dropdown ${isDownloadsOpen ? "show" : ""}`}>
                             <a 
@@ -49,11 +52,11 @@ const Navbar = () => {
                             </a>
                             <ul className={`dropdown-menu ${isDownloadsOpen ? "show" : ""}`}>
                                 <li><a className="dropdown-item" href="/programas">Programas</a></li>
-                                <li><a className="dropdown-item" href="/books">PFD's</a></li>
+                                {/* <li><a className="dropdown-item" href="/books">PFD's</a></li> */}
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <Link href="/about" className="nav-link">About</Link>
+                            <Link href="/about" className="nav-link">¿Que es ElektronTools?</Link>
                         </li>
                     </ul>
                 </div>

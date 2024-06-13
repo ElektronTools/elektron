@@ -30,7 +30,7 @@ const Proteus = () => {
           href='https://drive.google.com/file/d/12SJHGht5DvOnfQYuaNJfClADd2I5xWUw/view?usp=sharing' 
           target='_blank' 
           rel='noopener noreferrer' 
-          className='btn btn-warning mb-3'
+          className='btn btn-info mb-3'
         >
           Descargar traductor de Proteus al español
         </a>
@@ -38,7 +38,7 @@ const Proteus = () => {
           href='https://drive.google.com/file/d/1tVo7DAXM4jjBqBw08hM0YQHVsK6dtgSC/view?usp=sharing' 
           target='_blank' 
           rel='noopener noreferrer' 
-          className='btn btn-success mb-3'
+          className='btn btn-info mb-3'
         >
           Descargar libreria Arduino UNO
         </a>
@@ -46,11 +46,11 @@ const Proteus = () => {
           href='https://drive.google.com/file/d/11UNbW5jiSCCSgYoDkZjb36kXFEHiErCA/view?usp=sharing' 
           target='_blank' 
           rel='noopener noreferrer' 
-          className='btn btn-primary mb-3'
+          className='btn btn-info mb-3'
         >
           Descarga Winrar
         </a>
-        <h2 className='font-weight-bold mb-4'><strong>Video Tutorial Para Instalar Proteus</strong></h2>
+        {/* <h2 className='font-weight-bold mb-4'><strong>Video Tutorial Para Instalar Proteus</strong></h2>
         <div className='embed-responsive embed-responsive-16by9'>
           <iframe 
             className='embed-responsive-item'
@@ -60,7 +60,7 @@ const Proteus = () => {
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' 
             allowFullScreen
           ></iframe>
-        </div>
+        </div> */}
       </div>
     </div>
   );
