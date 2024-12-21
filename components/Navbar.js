@@ -35,7 +35,7 @@ const Navbar = () => {
                 <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`} id="navbarNavDropdown">
                     <ul className="navbar-nav ms-auto"> {/* ms-auto para alinear a la derecha */}
                         <li className="nav-item">
-                            <Link href="/servicios" className="nav-link">Instalación y Mantenimiento</Link>
+                            <Link href="/servicios" className="nav-link">Servicios</Link>
                         </li>
                         <li className="nav-item">
                             <Link href="/arduino" className="nav-link">Arduino</Link>
