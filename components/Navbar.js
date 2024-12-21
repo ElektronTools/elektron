@@ -37,9 +37,7 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link href="/servicios" className="nav-link">Servicios</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link href="/arduino" className="nav-link">Arduino</Link>
-                        </li>
+                        
                         <li className={`nav-item dropdown ${isDownloadsOpen ? "show" : ""}`}>
                             <a 
                                 className="nav-link dropdown-toggle" 
@@ -48,7 +46,7 @@ const Navbar = () => {
                                 onClick={toggleDownloads} 
                                 aria-expanded={isDownloadsOpen ? "true" : "false"}
                             >
-                                Descargas
+                                Descargar Software
                             </a>
                             <ul className={`dropdown-menu ${isDownloadsOpen ? "show" : ""}`}>
                                 <li><a className="dropdown-item" href="/programas">Programas</a></li>
