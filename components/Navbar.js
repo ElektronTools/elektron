@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div className="d-flex align-items-center"> {/* Div para el logo y el texto */}
                     <Link href="/" className="navbar-brand">
                         <img src="/elektrontoolslogo.ico" alt="ElektronTools Logo" style={{ width: '50px', height: '50px', marginRight: '10px' }} />
-                        ElektronTools
+                        ElektronTools AC⚡DC
                     </Link>
                 </div>
                 <button 
