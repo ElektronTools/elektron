@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div className="d-flex align-items-center"> {/* Div para el logo y el texto */}
                     <Link href="/" className="navbar-brand">
                         <img src="/elektrontoolslogo.ico" alt="ElektronTools Logo" style={{ width: '50px', height: '50px', marginRight: '10px' }} />
-                        ElektronTools AC⚡DC
+                        Elektron AC⚡DC
                     </Link>
                 </div>
                 <button 
@@ -37,7 +37,7 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link href="/servicios" className="nav-link">Servicios</Link>
                         </li>
-                        
+
                         <li className={`nav-item dropdown ${isDownloadsOpen ? "show" : ""}`}>
                             <a 
                                 className="nav-link dropdown-toggle" 
@@ -46,15 +46,15 @@ const Navbar = () => {
                                 onClick={toggleDownloads} 
                                 aria-expanded={isDownloadsOpen ? "true" : "false"}
                             >
-                                Descargar Software
+                                Descargas
                             </a>
                             <ul className={`dropdown-menu ${isDownloadsOpen ? "show" : ""}`}>
-                                <li><a className="dropdown-item" href="/programas">Programas</a></li>
-                                {/* <li><a className="dropdown-item" href="/books">PFD's</a></li> */}
+                                <li><a className="dropdown-item" href="/programas">Software Electrónica</a></li>
+                                { <li><a className="dropdown-item" href="/books">pdf´s</a></li> }
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <Link href="/about" className="nav-link">¿Que es ElektronTools?</Link>
+                            <Link href="/about" className="nav-link">¿Que es Elektron?</Link>
                         </li>
                     </ul>
                 </div>
