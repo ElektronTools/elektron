@@ -1,24 +1,42 @@
-// C:\Users\luala\Desktop\ElektronTools_Proyect\components\ImageCarousel.js
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-const ImageCarousel = ({ images }) => {
+const ImageCarousel = ({ slides }) => {
+  const containerStyle = {
+    position: 'relative',
+    textAlign: 'center',
+  };
+
+  const textStyle = {
+    position: 'absolute',
+    top: '10px',
+    left: '50%',
+    transform: 'translateX(-50%)',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    color: 'white',
+    padding: '5px 10px',
+    borderRadius: '5px',
+    fontSize: '16px',
+    zIndex: '10',
+  };
+
   const imageStyle = {
-    maxWidth: '100%', // Ajustar el ancho máximo de la imagen al tamaño del contenedor
-    height: 'auto', // Ajustar automáticamente la altura para mantener la proporción
+    maxWidth: '100%',
+    height: 'auto',
   };
 
   return (
     <Carousel
-      autoPlay={true} // Habilitar auto-play
-      interval={2000} // Intervalo entre imágenes (2.5 segundos)
-      infiniteLoop={true} // Repetir el carousel infinitamente
-      showThumbs={false} // No mostrar miniaturas
-      showStatus={false} // Desactivar indicadores de número de imágenes
+      autoPlay={true}
+      interval={2000}
+      infiniteLoop={true}
+      showThumbs={false}
+      showStatus={false}
     >
-      {images.map((image, index) => (
-        <div key={index}>
-          <img src={image} alt={`Slide ${index}`} />
+      {slides.map((slide, index) => (
+        <div key={index} style={containerStyle}>
+          <p style={textStyle}>{slide.text}</p>
+          <img src={slide.image} alt={`Slide ${index}`} style={imageStyle} />
         </div>
       ))}
     </Carousel>

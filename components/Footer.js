@@ -62,7 +62,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md-6 text-center align-self-center">
-            <p style={{ marginBottom: '1px' }}>© {new Date().getFullYear()} ElektronTools. Todos los derechos reservados.</p>
+            <p style={{ marginBottom: '1px' }}>© {new Date().getFullYear()} Elektron. Todos los derechos reservados.</p>
           </div>
         </div>
       </div>

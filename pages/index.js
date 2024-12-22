@@ -3,23 +3,19 @@ import ImageCarousel from '../components/ImageCarousel';
 
 const Index = () => {
   const slides = [
-    { image: '/images/image1.jpg', text: 'Instalaciones Eléctricas Nuevas' },
-    { image: '/images/image2.jpg', text: 'Mantenimiento General y Refacciones' },
-    { image: '/images/image3.jpg', text: 'Sistemas de Seguridad y Vigilancia' },
+    { image: '/images/image1.jpg', text: '✔ Instalaciones Eléctricas Nuevas' },
+    { image: '/images/image2.jpg', text: '✔ Mantenimiento General y Refacciones' },
+    { image: '/images/image3.jpg', text: '✔ Planos y Cálculos Eléctricos' },
+    { image: '/images/image4.jpg', text: '✔ Entubado y canalización eléctrica en losas y contrapisos' },
+    { image: '/images/image5.jpg', text: '✔ Domótica (Casas Inteligentes)' },
+    { image: '/images/image6.jpg', text: '✔ Sistemas de Seguridad y Vigilancia (Cámaras, Alarmas, Intercomunicadores)' },
+    { image: '/images/image7.jpg', text: '✔ Sistemas de puesta a tierra y tableros eléctricos' },
   ];
 
   return (
     <Layout>
       <div className="text-center">
         <ImageCarousel slides={slides} />
-        <p>✔ Instalaciones Eléctricas Nuevas</p>
-        <p>✔ Mantenimiento General y Refacciones</p>
-        <p>✔ Planos y Cálculos Eléctricos</p>
-        <p>✔ Entubado y canalización eléctrica en losas y contrapisos</p>
-        <p>✔ Domótica (Casas Inteligentes)</p>
-        <p>✔ Sistemas de Seguridad y Vigilancia (Cámaras, Alarmas, Intercomunicadores)</p>
-        <p>✔ Sistemas de puesta a tierra y tableros eléctricos</p>
-
         <p>🎯 Atención Rápida y Garantizada</p>
         <p>🚨 Emergencias 24/7</p>
         <p>💡 Cotizaciones Gratis</p>
