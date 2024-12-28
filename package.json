@@ -8,14 +8,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "<!--\r **ElektronTools/ElektronTools** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "bootswatch": "^5.3.3",
-    "next": "^14.2.3",
+    "next": "^14.2.22",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-responsive-carousel": "^3.2.23"

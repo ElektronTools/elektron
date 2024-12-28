@@ -1,0 +1,12 @@
+/* General */
+.navbar-nav .nav-item .nav-link {
+    text-align: left; /* Por defecto, texto alineado a la izquierda */
+}
+
+/* Estilo específico para móvil */
+@media (max-width: 768px) {
+    .navbar-nav.mobile-menu .nav-link {
+        text-align: center; /* Centrar texto en móvil */
+        display: block; /* Asegurar que los enlaces ocupen toda la línea */
+    }
+}

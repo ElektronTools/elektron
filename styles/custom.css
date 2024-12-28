@@ -4,3 +4,11 @@
     background-position: center;
 }
 
+/* Centrar texto de los enlaces en versión móvil */
+@media (max-width: 768px) {
+    .menu-item {
+        text-align: center; /* Centra el texto */
+        display: block; /* Hace que cada enlace ocupe toda la línea */
+        margin: 10px 0; /* Espaciado entre enlaces */
+    }
+}
