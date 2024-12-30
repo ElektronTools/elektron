@@ -27,6 +27,16 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/about": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/about.js"
+    ],
+    "/programas": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/programas.js"
+    ],
     "/remoto": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

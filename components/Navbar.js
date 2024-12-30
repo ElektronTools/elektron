@@ -46,7 +46,7 @@ const Navbar = () => {
                             </Link>
                         </li>
                         {/* Menú de Descargas con ícono */}
-                        <li className={`nav-item dropdown ${isDownloadsOpen ? "show" : ""}`}>
+                        <li className={`nav-item dropdown ${isDownloadsOpen ? "show" : ""}`} style={{ textAlign: 'center' }}>
                             <a 
                                 className="nav-link dropdown-toggle menu-item" 
                                 href="#" 
@@ -61,9 +61,9 @@ const Navbar = () => {
                                 />
                                 Descargas
                             </a>
-                            <ul className={`dropdown-menu ${isDownloadsOpen ? "show" : ""}`}>
-                                <li><a className="dropdown-item" href="/programas">Software Electrónica</a></li>
-                                <li><a className="dropdown-item" href="/books">pdf´s</a></li>
+                            <ul className={`dropdown-menu ${isDownloadsOpen ? "show" : ""}`} style={{ textAlign: 'center' }}>
+                                <li><a className="dropdown-item" href="/programas">Programas</a></li>
+                                <li><a className="dropdown-item" href="/books">Libros en pdf</a></li>
                             </ul>
                         </li>
                         {/* Botón ¿Qué es Elektron? */}

@@ -10,3 +10,51 @@
         display: block; /* Asegurar que los enlaces ocupen toda la línea */
     }
 }
+
+/* Estilos para la página About */
+.aboutSection {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.aboutSection h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.aboutSection h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.aboutSection p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.aboutSection ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.aboutSection li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+/* global.css */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Puedes agregar bordes redondeados si lo deseas */
+}

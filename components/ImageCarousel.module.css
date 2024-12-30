@@ -1,44 +1,50 @@
+/* Estilo general para el carrusel */
 .slideContainer {
-  position: relative;
-  text-align: center;
+  position: relative; /* Necesario para posicionar elementos absolutos dentro del contenedor */
 }
 
 .image {
   width: 100%;
-  height: 550px;
-  object-fit: cover;
-  margin: 0 auto;
+  height: 550px; /* Altura estándar en pantallas grandes */
+  object-fit: cover; /* Asegura que la imagen se adapte al contenedor */
 }
 
-.overlayText {
+.textOverlay {
   position: absolute;
-  top: 10%; /* Ajusta esta distancia según prefieras */
-  left: 50%;
-  transform: translateX(-50%);
-  background: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente para el texto */
-  padding: 10px 20px;
-  border-radius: 10px;
+  top: 0; /* Coloca el texto en la parte superior */
+  left: 0;
+  width: 100%; /* Asegura que el texto cubra todo el ancho de la imagen */
   color: #fff; /* Texto en blanco */
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  z-index: 10;
+  font-size: 22px; /* Tamaño de letra más grande */
+  font-weight: bold; /* Texto destacado */
+  padding: 20px 10px; /* Espaciado interno */
+  text-align: center; /* Centra el texto horizontalmente */
+  z-index: 10; /* Asegura que el texto esté por encima de la imagen */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra de texto con borde negro */
 }
 
-.text {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  font-size: 10px;
-  color: #fff;
-}
-
-@media (min-width: 1024px) {
+/* Estilos específicos para modo móvil */
+@media (max-width: 768px) {
   .image {
-    height: 600px;
-    max-width: 400px;
+    height: 300px; /* Reduce la altura de la imagen en dispositivos móviles */
   }
 
-  .overlayText {
-    font-size: 30px;
+  .textOverlay {
+    font-size: 18px; /* Ajusta el tamaño de la fuente para móviles */
+    padding: 10px 5px; /* Reduce el padding para móviles */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Mantén la sombra del texto */
+  }
+}
+
+/* Opcional: Estilos para dispositivos muy pequeños */
+@media (max-width: 480px) {
+  .image {
+    height: 250px; /* Ajusta la altura aún más para pantallas muy pequeñas */
+  }
+
+  .textOverlay {
+    font-size: 16px; /* Texto más pequeño para dispositivos muy compactos */
+    padding: 8px 5px; /* Padding reducido */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Mantén la sombra del texto */
   }
 }

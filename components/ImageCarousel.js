@@ -13,8 +13,8 @@ const ImageCarousel = ({ slides }) => {
     >
       {slides.map((slide, index) => (
         <div key={index} className={styles.slideContainer}>
-          {/* Texto fuera de la imagen */}
-          <div className={styles.textOutside}>
+          {/* Texto dentro de la imagen */}
+          <div className={styles.textOverlay}>
             <p>{slide.text}</p>
           </div>
           {/* Imagen */}
