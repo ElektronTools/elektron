@@ -1,4 +1,4 @@
-import 'bootswatch/dist/solar/bootstrap.min.css'
+import 'bootswatch/dist/Darkly/bootstrap.min.css'
 import ScrollToTopButton from '../components/ScrollToTopButton'
 import '../styles/custom.css'; // Asegúrate de que la ruta sea correcta
 
