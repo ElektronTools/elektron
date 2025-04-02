@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div className="d-flex align-items-center"> {/* Div para el logo y el texto */}
                     <Link href="/" className="navbar-brand">
                         <img src="/elektrontoolslogo.ico" alt="ElektronTools Logo" style={{ width: '50px', height: '50px', marginRight: '10px' }} />
-                        Elektron AC⚡DC
+                        Elektron Lab
                     </Link>
                 </div>
                 <button 
@@ -37,15 +37,15 @@ const Navbar = () => {
                         {/* Botón con ícono para Soporte Remoto */}
                         <li className="nav-item">
                             <Link href="/remoto" className="nav-link menu-item">
-                                <img 
-                                    src="/support-icon.ico" 
-                                    alt="Soporte Remoto" 
-                                    style={{ width: '40px', height: '40px', marginRight: '8px' }} 
-                                />
-                                Soporte Remoto
+                                Laboratorios
                             </Link>
                         </li>
-                        {/* Menú de Descargas con ícono */}
+                        <li className="nav-item">
+                            <Link href="/programas" className="nav-link menu-item">
+                                Descargas
+                            </Link>
+                        </li>
+                        {/* Menú de Descargas con ícono
                         <li className={`nav-item dropdown ${isDownloadsOpen ? "show" : ""}`} style={{ textAlign: 'center' }}>
                             <a 
                                 className="nav-link dropdown-toggle menu-item" 
@@ -54,21 +54,16 @@ const Navbar = () => {
                                 onClick={toggleDownloads} 
                                 aria-expanded={isDownloadsOpen ? "true" : "false"}
                             >
-                                <img 
-                                    src="/download-icon.ico" 
-                                    alt="Descargas" 
-                                    style={{ width: '30px', height: '30px', marginRight: '8px' }} 
-                                />
                                 Descargas
                             </a>
                             <ul className={`dropdown-menu ${isDownloadsOpen ? "show" : ""}`} style={{ textAlign: 'center' }}>
                                 <li><a className="dropdown-item" href="/programas">Programas</a></li>
-                                <li><a className="dropdown-item" href="/books">Libros en pdf</a></li>
+                                <li><a className="dropdown-item" href="/books">Documentos</a></li>
                             </ul>
-                        </li>
+                        </li> */}
                         {/* Botón ¿Qué es Elektron? */}
                         <li className="nav-item">
-                            <Link href="/about" className="nav-link menu-item">¿Qué es Elektron?</Link>
+                            <Link href="/about" className="nav-link menu-item">¿Qué es Elektron Lab?</Link>
                         </li>
                     </ul>
                 </div>

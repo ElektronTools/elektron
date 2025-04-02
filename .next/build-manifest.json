@@ -27,15 +27,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about": [
+    "/lab1": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/about.js"
+      "static/chunks/pages/lab1.js"
     ],
     "/programas": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/programas.js"
+    ],
+    "/proteus": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/proteus.js"
     ],
     "/remoto": [
       "static/chunks/webpack.js",

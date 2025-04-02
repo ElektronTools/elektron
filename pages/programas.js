@@ -10,14 +10,6 @@ const Programas = () => {
       title: "Proteus 8.17",
       imagenURL: "https://3.bp.blogspot.com/-vIudlSKLRjk/WyJC3P55deI/AAAAAAAAAv0/20SWkmyPe24jKTF-wxR85FraIhWgJFRpQCLcBGAs/s1600/p8n.JPG"
     },
-    {
-      title: "Fritzing",
-      imagenURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGscIxhwP37VRw0DemUYDWG06CxUQqyVex_Q&s"
-    },
-    {
-      title: "CadeSimu - PcSimu",
-      imagenURL: "https://miescapedigital.com/wp-content/uploads/2020/07/Cade-Simu-el-mejor-programa-para-la-simulaci%C3%B3n-de-circuitos.jpg"
-    },
   ];
 
   const handleDownload = () => {
@@ -27,21 +19,23 @@ const Programas = () => {
   return (
     <Layout footer={false} title="My Blog" dark>
       <div className='container'>
-        <div className='row'>
-          {/* Mapeo de posts */}
+        <div className='row justify-content-center'>
           {posts.map((post, i) => (
-            <div key={i} className='col-md-4 mb-4'>
-              <div className='card text-center'>
-                <div className='overflow'>
-                  <img src={post.imagenURL} className='card-img-top' style={{ height: '200px' }} alt="Post" />
+            <div key={i} className='col-md-6 col-lg-4 mb-4'>
+              <div className='card text-center shadow-lg border-0 rounded-3'>
+                <div className='overflow-hidden rounded-top'>
+                  <img src={post.imagenURL} className='card-img-top object-fit-cover' style={{ height: '200px' }} alt="Post" />
                 </div>
                 <div className='card-body'>
-                  <h1 className='card-title'><strong>{post.title}</strong></h1>
-                  <div className='d-flex justify-content-center'>
-                    <button onClick={handleDownload} className='btn btn-primary'>
-                      Descargar
-                    </button>
-                  </div>
+                  <h5 
+                    className='card-title fw-bold' 
+                    onClick={handleDownload} 
+                    style={{ cursor: 'pointer', color: '#ff5733', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)', transition: 'color 0.3s ease' }}
+                    onMouseOver={(e) => e.target.style.color = '#ff3300'}
+                    onMouseOut={(e) => e.target.style.color = '#ff5733'}
+                  >
+                    {post.title}
+                  </h5>
                 </div>
               </div>
             </div>
